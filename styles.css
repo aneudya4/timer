@@ -1,0 +1,70 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: rgb(221, 220, 220);
+}
+
+.stop-watch {
+  margin-bottom: 10px;
+  font-size: 70px;
+}
+
+.stop-watch span {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 6px 24px;
+  border-radius: 3px;
+}
+
+.stop {
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  border: 1px solid #942911;
+}
+
+.stop:hover {
+  background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  background-color: #bc3315;
+}
+
+.start {
+  box-shadow: inset 0px 1px 0px 0px #3dc21b;
+  background: linear-gradient(to bottom, #228f3f 5%, #5cbf2a 100%);
+  border: 1px solid #18ab29;
+}
+.start:hover {
+  background: linear-gradient(to bottom, #5cbf2a 5%, #228f3f 100%);
+  background-color: #5cbf2a;
+}
+
+.reset {
+  box-shadow: inset 0px 1px 0px 0px #c3db11;
+  background: linear-gradient(to bottom, #815a0c 5%, #dede16 100%);
+  border: 1px solid #adad23;
+}
+.reset:hover {
+  background: linear-gradient(to bottom, #dede16 5%, #d4961b 100%);
+  background-color: #dede16;
+}
